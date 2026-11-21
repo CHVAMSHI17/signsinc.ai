@@ -1,0 +1,14 @@
+Why index.html doesn't open by double-click
+-------------------------------------------
+This is a Vite + React project. The index.html in this folder is only a
+template; it points to /src/main.jsx, which browsers can't run directly.
+
+Option A - run it (recommended)
+  1. Install Node.js 18+ from https://nodejs.org
+  2. Windows: double-click START.bat      Mac/Linux: ./start.sh
+  3. Open http://localhost:3001
+
+Option B - build a double-clickable version
+  1. Windows: double-click BUILD.bat       Mac/Linux: ./build.sh
+  2. Open dist/index.html (works offline, no server needed;
+     fonts need internet, otherwise a fallback font is used)

@@ -1,0 +1,23 @@
+{
+  "name": "signsync-ai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SignSync AI — AI-powered ISL classroom accessibility prototype",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 3001",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0 --port 3001"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^8.17.10",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "three": "^0.169.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}
